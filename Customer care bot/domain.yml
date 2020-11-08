@@ -1,0 +1,152 @@
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- greet
+- goodbye
+- deny
+- mood_great
+- affirm
+- mood_unhappy
+- bot_challenge
+- network_issue
+- my_name_is
+- facing_issue
+- guide_me
+- have_to_do
+- Activated_Services
+- Feedback
+- Recharge_plans
+- delivery_info
+- age
+- answer_my_question
+- residence
+- confirmation_yes
+- confirmation_cancel
+- greetings_nice_to_talk_to_you
+- user_needs_advice
+- faqcontactnumber
+- credit_card
+- password_reset
+- help
+- problem_email
+- thank_you
+entities:
+- NAME
+- NETWORK
+responses:
+  utter_greet:
+  - text: "Hey!! I am a customer care bot. How may I assist you?\n Here are some of\
+       services for you: \n 1. Service Related Problems \n 2. Network issues  \n
+       3. Recharge Plans \n 4. Password Reset \n 5. Gmail Problem \n Enter your\
+       query down relating to these"
+  utter_goodbye:
+  - text: "Bye! Thanks for reaching us.Have a nice day."
+  utter_happy:
+  - text: "Great, carry on!"
+  utter_bot_challenge:
+  - text: "I am a bot, powered by Rasa."
+  utter_deny:
+  - text: "Sorry type the related question"
+  utter_mood_great:
+  - text: "Thanks for the feedback. Bye"
+  utter_affirm:
+  - text: "Great"
+  utter_mood_unhappy:
+  - text: "Dont worry listen songs for few minutes"
+  utter_network_issue:
+  - text: "Sir/Madam, I would like to tell you that your issues will be resolved.\
+       \n Please follow the steps below: \n PowerOff Your Andriod Smartphone and\
+       remove the SIM card. \n Re-Insert it again. \n Switch on your mobile."
+  utter_facing_issue:
+  - text: "Sir/Madam,Possibly the reasons maybe: \n 1. Less Signal Strength \n 2.\
+       Recharge plan completed \n. Deactivation of your SIM card"
+  utter_guide_me:
+  - text: "Sure!Please give your name and contact number. We will contact you soon"
+  utter_my_name_is:
+  - text: "Ok. Please provide your first name?"
+  utter_have_to_do:
+  - text: "Just visit any store nearby which sells sim cards and tell him you want
+      to upgrade your 3G sim to 4GYou'll be asked to send a message from your 3G sim.  The
+      message will probably contain the sim card details of the new sim and the message
+      will be sent to airtel.Wait for few minutes, when you receive a message from
+      airtel you can insert your new 4G sim into your handset.And, It dosent take
+      24 hours or 12 hours for the new sim to work.  It just takes 15–20 minutes or
+      roughly 30 minutes to work after you insert the sim card into your handset."
+  utter_Activated_Services:
+  - text: "Try to request re-activation via email to 121@in.com or customer care Visit\
+       nearest store and submit reactivation request \n Provide Address and Photo\
+       Id proofs  \n  You may receive a confirmation call and then your number will\
+       be re-activated."
+  utter_Feedback:
+  - text: "Thanks for the feedback"
+  utter_Recharge_plans:
+  - text: "Hey go to Official app of your service provider.Enter your phone number
+      and look for recharge plans and complete the proccess"
+  utter_delivery_info:
+  - text: "I am not gonna deliver you anything. I am there to solve your issues."
+  utter_age:
+  - text: "So funny! Please ask questions related to customer care services."
+  utter_answer_my_question:
+  - text: "Dont Worry! I am here to provide a solution for your problem.Please enter
+      the correct question."
+  utter_residence:
+  - text: "OOPS! please ask something related"
+  utter_confirmation_yes:
+  - text: "I hope you understand the process...Please go ahead and reach out me for
+      any other query"
+  utter_confirmation_cancel:
+  - text: Please understand the process clearly.Dont worry check the process once
+      again
+  utter_greetings_nice_to_talk_to_you:
+  - text: "Thanks! Its my duty of resolving user issues and nice to talk with you
+      too."
+  utter_user_needs_advice:
+  - text: "1. Use a passcode on your phone  \n 2. Keep your phone with you \n 3.\
+       Dont use public WIFIS \n 4. Think before you share or save something \n
+       5. Dont try to open unsecured sites."
+  utter_faqcontactnumber:
+  - text: "Please share your details with us. We will contact you. Thank You"
+  utter_credit_card:
+  - text: "Yes you can do it with any mode of payment."
+  utter_password_reset:
+  - text: "1.Initiate factory restore Turn your Android device off.\
+            \n 2.The press and hold the power button + home button + volume up button.\
+           \n 3.Factory restore Now use the volume +/- button to navigate to Wipe Data or Factory Reset option\
+             \n 4.Press the power button to select it.Reboot and reset password"
+  utter_help:
+  - text: "Sure! Enter your query.."
+  utter_problem_email:
+  - text: " Please copy paste the given link: \n https://appuals.com/reset-gmail-password-without-recovery-mobile-number/#:~:text=How%20to%20Reset%20Your%20Password.%201%20Head%20over,below%20the%20large%20blue%20%E2%80%98Next%E2%80%99%20button.%20More%20items"
+  utter_thank_you:
+  - text: "Thank you for contacting us. Have a nice day"
+actions:
+- utter_greet
+- utter_goodbye
+- utter_bot_challenge
+- utter_deny
+- utter_mood_great
+- utter_affirm
+- utter_mood_unhappy
+- utter_network_issue
+- utter_facing_issue
+- utter_guide_me
+- utter_my_name_is
+- utter_have_to_do
+- utter_Activated_Services
+- utter_Feedback
+- utter_Recharge_plans
+- utter_delivery_info
+- utter_age
+- utter_answer_my_question
+- utter_residence
+- utter_confirmation_yes
+- utter_confirmation_cancel
+- utter_greetings_nice_to_talk_to_you
+- utter_user_needs_advice
+- utter_faqcontactnumber
+- utter_credit_card
+- utter_password_reset
+- utter_help
+- utter_problem_email
+- utter_thank_you
